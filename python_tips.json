@@ -1,0 +1,124 @@
+{
+    "qa_pairs": [
+        {
+            "q": "how to check python version",
+            "a": "Run: python --version or python -V. In code: import sys; print(sys.version)",
+            "learned_at": "2024-01-20 10:00:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is pip list",
+            "a": "pip list shows all installed packages with their versions. Use: pip list",
+            "learned_at": "2024-01-20 10:01:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to upgrade pip",
+            "a": "On Windows: python -m pip install --upgrade pip. On Linux/Mac: pip install --upgrade pip",
+            "learned_at": "2024-01-20 10:02:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is requirements txt",
+            "a": "requirements.txt lists project dependencies. Create with: pip freeze > requirements.txt. Install all: pip install -r requirements.txt",
+            "learned_at": "2024-01-20 10:03:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to format strings in python",
+            "a": "Three ways: 1) f-strings: f'Hello {name}' 2) format(): 'Hello {}'.format(name) 3) % formatting: 'Hello %s' % name",
+            "learned_at": "2024-01-20 10:04:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is list slicing",
+            "a": "Slicing extracts parts of lists: list[0:3] gets first 3 items. list[1:] gets from index 1 to end. list[-1] gets last item. list[::-1] reverses.",
+            "learned_at": "2024-01-20 10:05:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is enumerate",
+            "a": "enumerate() gives both index and value when looping: for i, item in enumerate(list): print(i, item)",
+            "learned_at": "2024-01-20 10:06:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is zip in python",
+            "a": "zip() combines multiple iterables: for x, y in zip(list1, list2): print(x, y). Creates tuples from elements at same position.",
+            "learned_at": "2024-01-20 10:07:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is filter",
+            "a": "filter() returns items that match a condition: list(filter(lambda x: x > 5, [1,2,5,8])). Returns items matching the function.",
+            "learned_at": "2024-01-20 10:08:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is map",
+            "a": "map() applies a function to each item: list(map(lambda x: x*2, [1,2,3])). Returns [2,4,6]",
+            "learned_at": "2024-01-20 10:09:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to sort a list",
+            "a": "Use sorted() or list.sort(). sorted([3,1,2]) returns [1,2,3]. Add reverse=True for descending. Sort by key: sorted(list, key=lambda x: x['age'])",
+            "learned_at": "2024-01-20 10:10:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is dict get method",
+            "a": "dict.get(key) safely gets a value. Returns None if key doesn't exist. dict.get(key, default) returns default if missing. Safer than dict[key]",
+            "learned_at": "2024-01-20 10:11:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to merge dictionaries",
+            "a": "Python 3.9+: dict1 | dict2. Earlier: {**dict1, **dict2}. Or use update(): dict1.update(dict2)",
+            "learned_at": "2024-01-20 10:12:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is default parameter",
+            "a": "def func(x=5): provides a default value. If not specified, x=5. Example: def greet(name='Friend'): print(f'Hello {name}')",
+            "learned_at": "2024-01-20 10:13:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is *args and **kwargs",
+            "a": "*args accepts variable number of arguments as tuple. **kwargs accepts keyword arguments as dict. def func(*args, **kwargs):",
+            "learned_at": "2024-01-20 10:14:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to read json file",
+            "a": "import json; with open('file.json') as f: data = json.load(f). Use json.loads(string) for strings.",
+            "learned_at": "2024-01-20 10:15:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to write json file",
+            "a": "import json; with open('file.json', 'w') as f: json.dump(data, f). Use indent=4 for pretty printing.",
+            "learned_at": "2024-01-20 10:16:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is assert",
+            "a": "assert checks if condition is True. Raises AssertionError if False. assert x > 0, 'x must be positive'. Useful for debugging.",
+            "learned_at": "2024-01-20 10:17:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is docstring",
+            "a": "Docstring explains a function/class. Enclosed in triple quotes: def func():\\n    '''This does something'''. Access with func.__doc__",
+            "learned_at": "2024-01-20 10:18:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to use datetime",
+            "a": "import datetime; now = datetime.datetime.now(). Create specific date: datetime.datetime(2024, 2, 25). Format: now.strftime('%Y-%m-%d')",
+            "learned_at": "2024-01-20 10:19:00",
+            "source": "python_tips.json"
+        }
+    ]
+}

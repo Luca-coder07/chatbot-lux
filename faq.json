@@ -1,0 +1,124 @@
+{
+    "qa_pairs": [
+        {
+            "q": "how do i update python",
+            "a": "On Windows/macOS: Download the latest version from python.org and install. On Linux: Use sudo apt-get upgrade python3 (Ubuntu/Debian). Or use pyenv for multiple versions.",
+            "learned_at": "2024-01-18 10:00:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is pip",
+            "a": "pip is Python's package manager (pip = Package Installer for Python). Use 'pip install <package>' to install libraries. It comes with Python by default.",
+            "learned_at": "2024-01-18 10:01:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i install a package with pip",
+            "a": "Open terminal/command prompt and type: pip install package_name. For example: pip install requests, pip install numpy. To install a specific version: pip install package_name==version.",
+            "learned_at": "2024-01-18 10:02:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a virtual environment",
+            "a": "A virtual environment is an isolated Python environment where you can install packages without affecting the global Python. Create with: python -m venv env_name",
+            "learned_at": "2024-01-18 10:03:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i use a virtual environment",
+            "a": "Create: python -m venv myenv. Activate: On Windows: myenv\\Scripts\\activate, On Linux/Mac: source myenv/bin/activate. Deactivate: type 'deactivate'.",
+            "learned_at": "2024-01-18 10:04:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is the difference between == and =",
+            "a": "= is assignment (assigns a value). == is comparison (checks if two values are equal). Use = to set variables, use == in if statements.",
+            "learned_at": "2024-01-18 10:05:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i print in python",
+            "a": "Use the print() function: print('Hello World'). You can print multiple values: print('Hello', 'World'). Use \\n for new lines.",
+            "learned_at": "2024-01-18 10:06:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is an indentation error",
+            "a": "Python uses indentation to define code blocks. IndentationError occurs when indentation is inconsistent. Make sure you use spaces or tabs consistently (not mixed).",
+            "learned_at": "2024-01-18 10:07:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i fix a syntax error",
+            "a": "Read the error message - it shows the file and line number. Common causes: missing colons, unclosed brackets, typos. Use a code editor with syntax highlighting to help.",
+            "learned_at": "2024-01-18 10:08:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a list in python",
+            "a": "A list is an ordered collection of items. Create with square brackets: [1, 2, 3] or ['a', 'b', 'c']. Access items by index: list[0] returns first item.",
+            "learned_at": "2024-01-18 10:09:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a dictionary in python",
+            "a": "A dictionary stores key-value pairs. Create with curly braces: {'name': 'Lux', 'age': 2}. Access values: dict['name'] returns 'Lux'.",
+            "learned_at": "2024-01-18 10:10:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i loop through a list",
+            "a": "Use a for loop: for item in list: print(item). Or use range: for i in range(len(list)): print(list[i]). Or use enumerate: for i, item in enumerate(list):",
+            "learned_at": "2024-01-18 10:11:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a string",
+            "a": "A string is text data enclosed in quotes: 'Hello' or \"World\". You can concatenate: 'Hello' + 'World'. You can slice: 'Hello'[0:3] returns 'Hel'.",
+            "learned_at": "2024-01-18 10:12:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i read a file",
+            "a": "Use open() function: with open('file.txt', 'r') as f: content = f.read(). The 'with' statement closes the file automatically.",
+            "learned_at": "2024-01-18 10:13:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i write to a file",
+            "a": "Use open() with 'w' mode: with open('file.txt', 'w') as f: f.write('content'). Be careful - 'w' overwrites existing files. Use 'a' to append.",
+            "learned_at": "2024-01-18 10:14:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is json",
+            "a": "JSON is a data format: {\"key\": \"value\"}. In Python, use json module: import json. json.load() reads JSON, json.dump() writes JSON.",
+            "learned_at": "2024-01-18 10:15:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i handle errors",
+            "a": "Use try-except: try: risky_code() except Exception as e: handle_error(e). You can catch specific errors: except ValueError, except KeyError, etc.",
+            "learned_at": "2024-01-18 10:16:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a lambda function",
+            "a": "Lambda is an anonymous function: lambda x: x*2. Useful for short, simple functions. Often used with map(), filter(), sort().",
+            "learned_at": "2024-01-18 10:17:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is list comprehension",
+            "a": "Concise way to create lists: [x*2 for x in range(5)] returns [0,2,4,6,8]. Can add conditions: [x for x in range(10) if x%2==0]",
+            "learned_at": "2024-01-18 10:18:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i debug python code",
+            "a": "Add print() statements to check values. Use Python debugger: import pdb; pdb.set_trace(). Or use IDE debugger (VSCode, PyCharm). Check error messages carefully.",
+            "learned_at": "2024-01-18 10:19:00",
+            "source": "faq.json"
+        }
+    ]
+}

@@ -2,40 +2,279 @@
     "qa_pairs": [
         {
             "q": "Bonjour",
-            "a": "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+            "a": "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+            "learned_at": "2024-01-15 10:00:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "Comment ça va",
-            "a": "Je vais bien, merci ! Et vous ?"
+            "a": "Je vais bien, merci ! Et vous ?",
+            "learned_at": "2024-01-15 10:01:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "Quelle est la capitale de la France",
-            "a": "La capitale de la France est Paris."
+            "a": "La capitale de la France est Paris.",
+            "learned_at": "2024-01-15 10:02:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "Au revoir",
-            "a": "Au revoir ! Passez une excellente journée."
+            "a": "Au revoir ! Passez une excellente journée.",
+            "learned_at": "2024-01-15 10:03:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "Hey",
             "a": "Salut",
-            "learned_at": "2026-02-19 21:49:31"
+            "learned_at": "2026-02-19 21:49:31",
+            "source": "knowledge_base.json"
         },
         {
             "q": "qui es tu ?",
-            "a": "Je suis votre assistant personnel, créé pour vous aider avec mes 10 ans d'éxperience en... oh wait, j'ai aucun diplôme en fait! :/"
+            "a": "Je suis votre assistant personnel, créé pour vous aider avec mes 10 ans d'éxperience en... oh wait, j'ai aucun diplôme en fait! :/",
+            "learned_at": "2024-01-15 10:04:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "comment tu t'appelles ?",
-            "a": "Je m'appelle Lux!"
+            "a": "Je m'appelle Lux!",
+            "learned_at": "2024-01-15 10:05:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "tu es une ia ?",
-            "a": "Oui, je suis une intelligence artificielle locale - je vis dans votre ordinateur et je ne sors jamais sans votre permission !"
+            "a": "Oui, je suis une intelligence artificielle locale - je vis dans votre ordinateur et je ne sors jamais sans votre permission !",
+            "learned_at": "2024-01-15 10:06:00",
+            "source": "knowledge_base.json"
         },
         {
             "q": "tu es humain ?",
-            "a": "Malheuresement non - je suis 100% code et 0% café. Mais j'essai d'être sympa quand même !"
+            "a": "Malheuresement non - je suis 100% code et 0% café. Mais j'essai d'être sympa quand même !",
+            "learned_at": "2024-01-15 10:07:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que python",
+            "a": "Python est un langage de programmation haut niveau, interprété et dynamique. Il est connu pour sa syntaxe simple et lisible, ce qui le rend idéal pour les débutants et les experts.",
+            "learned_at": "2024-01-16 10:00:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "comment installer python",
+            "a": "Visitez python.org, téléchargez la dernière version stable, et exécutez l'installateur. Sur Linux, utilisez: sudo apt-get install python3. Sur macOS: brew install python3.",
+            "learned_at": "2024-01-16 10:01:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que git",
+            "a": "Git est un système de contrôle de version distribué qui permet de suivre les modifications du code. Il est essentiel pour la collaboration et la gestion de projets logiciels.",
+            "learned_at": "2024-01-16 10:02:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "comment créer un repository git",
+            "a": "Utilisez la commande 'git init' pour créer un nouveau repository local, ou 'git clone <url>' pour cloner un repository existant.",
+            "learned_at": "2024-01-16 10:03:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que github",
+            "a": "GitHub est une plateforme web basée sur Git pour l'hébergement de repositories. Elle facilite la collaboration, le partage de code et la gestion de projets open-source.",
+            "learned_at": "2024-01-16 10:04:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is artificial intelligence",
+            "a": "Artificial Intelligence (AI) is the simulation of human intelligence by machines, particularly computer systems. It includes machine learning, deep learning, and natural language processing.",
+            "learned_at": "2024-01-16 10:05:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is machine learning",
+            "a": "Machine learning is a subset of AI where systems learn from data and improve their performance over time without being explicitly programmed for specific tasks.",
+            "learned_at": "2024-01-16 10:06:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que javascript",
+            "a": "JavaScript est un langage de programmation principalement utilisé pour créer des interactions dynamiques sur les pages web. Il s'exécute dans les navigateurs web et sur les serveurs (Node.js).",
+            "learned_at": "2024-01-16 10:07:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que html",
+            "a": "HTML (HyperText Markup Language) est le langage standard pour créer des pages web. Il utilise des balises pour structurer le contenu.",
+            "learned_at": "2024-01-16 10:08:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que css",
+            "a": "CSS (Cascading Style Sheets) est utilisé pour styliser et mettre en page les éléments HTML. Il contrôle l'apparence visuelle des pages web.",
+            "learned_at": "2024-01-16 10:09:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is a database",
+            "a": "A database is an organized collection of structured data stored and accessed electronically. Examples include SQL, MongoDB, and PostgreSQL.",
+            "learned_at": "2024-01-16 10:10:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is sql",
+            "a": "SQL (Structured Query Language) is the standard language for managing relational databases. It allows you to create, read, update, and delete data.",
+            "learned_at": "2024-01-16 10:11:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que json",
+            "a": "JSON (JavaScript Object Notation) est un format léger d'échange de données basé sur du texte. Il est facile à lire et à écrire pour les humains et les machines.",
+            "learned_at": "2024-01-16 10:12:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu une api",
+            "a": "Une API (Application Programming Interface) est un ensemble de protocoles permettant à différentes applications de communiquer entre elles.",
+            "learned_at": "2024-01-16 10:13:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is rest api",
+            "a": "REST API is an architectural style for designing networked applications using HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources.",
+            "learned_at": "2024-01-16 10:14:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que docker",
+            "a": "Docker est une plateforme de containerisation qui permet d'empaqueter des applications avec toutes leurs dépendances dans des conteneurs isolés et portables.",
+            "learned_at": "2024-01-16 10:15:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is a framework",
+            "a": "A framework is a collection of pre-written code, libraries, and tools that provides a foundation for building applications. Examples: Django, Flask, React, Vue.js.",
+            "learned_at": "2024-01-16 10:16:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que django",
+            "a": "Django est un framework web Python complet et haut niveau qui facilite le développement rapide d'applications web avec une architecture MVC.",
+            "learned_at": "2024-01-16 10:17:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is react",
+            "a": "React is a JavaScript library for building user interfaces with reusable components. It uses a virtual DOM for efficient rendering.",
+            "learned_at": "2024-01-16 10:18:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu un algorithm",
+            "a": "Un algorithme est une suite finie d'étapes bien définies pour résoudre un problème ou accomplir une tâche. C'est la base de la programmation.",
+            "learned_at": "2024-01-16 10:19:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is big o notation",
+            "a": "Big O notation is used to describe the performance of an algorithm in terms of how its runtime or space requirements grow as the input size grows.",
+            "learned_at": "2024-01-16 10:20:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is debugging",
+            "a": "Debugging is the process of finding and fixing errors in code. Tools include print statements, debuggers, and logging frameworks.",
+            "learned_at": "2024-01-16 10:21:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce que unit testing",
+            "a": "Le unit testing est une méthode de test logiciel où chaque composant est testé individuellement pour s'assurer qu'il fonctionne correctement.",
+            "learned_at": "2024-01-16 10:22:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is version control",
+            "a": "Version control is a system that tracks changes to files over time, allowing multiple people to work on the same project and maintain history.",
+            "learned_at": "2024-01-16 10:23:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is agile methodology",
+            "a": "Agile is a project management and software development approach emphasizing iterative development, flexibility, and continuous improvement.",
+            "learned_at": "2024-01-16 10:24:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu open source",
+            "a": "L'open source est un modèle de développement logiciel où le code source est public et peut être modifié par quiconque. Exemples: Linux, Python, Firefox.",
+            "learned_at": "2024-01-16 10:25:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is a linux",
+            "a": "Linux is a free, open-source operating system kernel. It powers servers, desktops, and embedded systems worldwide.",
+            "learned_at": "2024-01-16 10:26:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu un serveur web",
+            "a": "Un serveur web est un logiciel qui reçoit les demandes HTTP des clients (navigateurs) et retourne les ressources demandées. Exemples: Apache, Nginx.",
+            "learned_at": "2024-01-16 10:27:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is cybersecurity",
+            "a": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks and unauthorized access.",
+            "learned_at": "2024-01-16 10:28:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu une variable",
+            "a": "Une variable est un conteneur nommé qui stocke une valeur. Elle peut être un nombre, du texte, ou d'autres types de données.",
+            "learned_at": "2024-01-16 10:29:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is a function",
+            "a": "A function is a reusable block of code that performs a specific task. It can accept parameters and return values.",
+            "learned_at": "2024-01-16 10:30:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu une boucle",
+            "a": "Une boucle est une structure de contrôle qui répète un bloc de code plusieurs fois. Types: for, while, do-while.",
+            "learned_at": "2024-01-16 10:31:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is recursion",
+            "a": "Recursion is a programming technique where a function calls itself to solve a problem by breaking it into smaller subproblems.",
+            "learned_at": "2024-01-16 10:32:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu une classe",
+            "a": "Une classe est un modèle pour créer des objets. Elle définit les propriétés (attributs) et les comportements (méthodes) des objets.",
+            "learned_at": "2024-01-16 10:33:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is inheritance",
+            "a": "Inheritance is an object-oriented programming concept where a class inherits properties and methods from another class.",
+            "learned_at": "2024-01-16 10:34:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "qu est ce qu une exception",
+            "a": "Une exception est un événement anormal qui se produit lors de l'exécution d'un programme. Elle peut être gérée avec try-except.",
+            "learned_at": "2024-01-16 10:35:00",
+            "source": "knowledge_base.json"
+        },
+        {
+            "q": "what is cloud computing",
+            "a": "Cloud computing is the delivery of computing services (servers, storage, databases) over the internet. Providers: AWS, Azure, Google Cloud.",
+            "learned_at": "2024-01-16 10:36:00",
+            "source": "knowledge_base.json"
         }
     ]
 }

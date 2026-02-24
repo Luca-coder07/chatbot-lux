@@ -1,0 +1,6 @@
+# Chatbot-Lux Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core functionality is built-in (difflib, json, datetime)
+# Optional performance enhancement for fuzzy matching:
+rapidfuzz>=3.0.0

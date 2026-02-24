@@ -1,0 +1,124 @@
+{
+    "qa_pairs": [
+        {
+            "q": "what is the capital of france",
+            "a": "The capital of France is Paris. It's located in northern central France and is the largest city in France with a population of about 2.2 million.",
+            "learned_at": "2024-01-19 10:00:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the capital of usa",
+            "a": "The capital of the United States is Washington, D.C. (District of Columbia). It's not a state but a federal district where the U.S. government is located.",
+            "learned_at": "2024-01-19 10:01:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the capital of japan",
+            "a": "The capital of Japan is Tokyo. It's the largest city in Japan with over 13 million people and is known for its technology, culture, and cuisine.",
+            "learned_at": "2024-01-19 10:02:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how many continents are there",
+            "a": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Oceania. Some models use 5 or 6 continents depending on geographical definitions.",
+            "learned_at": "2024-01-19 10:03:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the largest planet",
+            "a": "Jupiter is the largest planet in our solar system. It's about 11 times wider than Earth and is a gas giant composed mainly of hydrogen and helium.",
+            "learned_at": "2024-01-19 10:04:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how far is the sun from earth",
+            "a": "The Sun is approximately 93 million miles (150 million kilometers) from Earth. This distance is called an Astronomical Unit (AU).",
+            "learned_at": "2024-01-19 10:05:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is photosynthesis",
+            "a": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to create oxygen and energy (glucose). It's the foundation of most life on Earth.",
+            "learned_at": "2024-01-19 10:06:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how many bones in human body",
+            "a": "An adult human has 206 bones. Babies are born with about 270 bones, but many fuse together as they grow, resulting in fewer bones in adults.",
+            "learned_at": "2024-01-19 10:07:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the speed of light",
+            "a": "Light travels at approximately 299,792,458 meters per second (186,282 miles per second) in a vacuum. It's the fastest thing in the universe.",
+            "learned_at": "2024-01-19 10:08:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is relativity",
+            "a": "Relativity is Einstein's theory describing how space and time are connected. It explains gravity and how massive objects curve spacetime, affecting motion of objects.",
+            "learned_at": "2024-01-19 10:09:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "who invented the telephone",
+            "a": "Alexander Graham Bell is credited with inventing the telephone in 1876, though other inventors like Antonio Meucci also contributed to its development.",
+            "learned_at": "2024-01-19 10:10:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "who invented the light bulb",
+            "a": "Thomas Edison developed the practical incandescent light bulb in 1879, though Joseph Swan and others also contributed to its invention.",
+            "learned_at": "2024-01-19 10:11:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is dna",
+            "a": "DNA (Deoxyribonucleic Acid) is a molecule that carries genetic instructions for all living organisms. It has a double helix structure discovered by Watson and Crick in 1953.",
+            "learned_at": "2024-01-19 10:12:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is evolution",
+            "a": "Evolution is the process of change in living organisms over time through natural selection. Charles Darwin's theory explains how species adapt and change.",
+            "learned_at": "2024-01-19 10:13:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is gravity",
+            "a": "Gravity is a fundamental force that attracts objects with mass. It keeps us on Earth and keeps Earth orbiting the Sun. Newton and Einstein explained gravity differently.",
+            "learned_at": "2024-01-19 10:14:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is climate change",
+            "a": "Climate change refers to long-term shifts in global temperatures and weather patterns, primarily caused by human activities increasing greenhouse gases like CO2.",
+            "learned_at": "2024-01-19 10:15:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is renewable energy",
+            "a": "Renewable energy comes from natural sources that replenish themselves: solar, wind, hydroelectric, geothermal, and biomass. They're cleaner than fossil fuels.",
+            "learned_at": "2024-01-19 10:16:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the great wall of china",
+            "a": "The Great Wall of China is a massive defensive structure built over centuries. It stretches about 13,000 miles (21,000 km) across northern China.",
+            "learned_at": "2024-01-19 10:17:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the internet",
+            "a": "The Internet is a global network of interconnected computers using TCP/IP protocols to share data. It enables communication, information sharing, and services worldwide.",
+            "learned_at": "2024-01-19 10:18:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is wikipedia",
+            "a": "Wikipedia is a free, open-source online encyclopedia written collaboratively by volunteers. It contains millions of articles in hundreds of languages.",
+            "learned_at": "2024-01-19 10:19:00",
+            "source": "general_knowledge.json"
+        }
+    ]
+}

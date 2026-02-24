@@ -1,3 +1,124 @@
 {
-    "qa_pairs": []
+    "qa_pairs": [
+        {
+            "q": "did you know python",
+            "a": "Python was created by Guido van Rossum in 1989 and released in 1991. The name comes from the comedy group Monty Python, not the snake!",
+            "learned_at": "2024-01-17 10:00:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "who invented the internet",
+            "a": "The Internet was developed by many people, but Tim Berners-Lee invented the World Wide Web (WWW) in 1989. The TCP/IP protocol was created by Vint Cerf and Bob Kahn.",
+            "learned_at": "2024-01-17 10:01:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the oldest programming language",
+            "a": "FORTRAN (1957) is one of the oldest programming languages still in use. However, earlier languages like Plankalkül (1940s) and UNIVAC (1950s) existed but are obsolete.",
+            "learned_at": "2024-01-17 10:02:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many programming languages exist",
+            "a": "There are over 700 programming languages in existence, but only about 20-30 are widely used in professional development. New languages are created regularly.",
+            "learned_at": "2024-01-17 10:03:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what was the first computer bug",
+            "a": "In 1947, a moth was found in a Harvard Mark II computer, causing a malfunction. Grace Hopper and team documented this as the first computer 'bug'.",
+            "learned_at": "2024-01-17 10:04:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many bits in a byte",
+            "a": "There are 8 bits in a byte. A bit is the smallest unit of data (0 or 1), and a byte can represent 256 different values (0-255).",
+            "learned_at": "2024-01-17 10:05:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the most used programming language",
+            "a": "According to recent surveys (2023), Python, Java, and JavaScript are among the most popular programming languages worldwide.",
+            "learned_at": "2024-01-17 10:06:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how long is a line of code",
+            "a": "There's no strict definition, but a typical line of code is 40-100 characters. Many developers limit lines to 80-120 characters for readability.",
+            "learned_at": "2024-01-17 10:07:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is hello world",
+            "a": "'Hello World' is a simple program that outputs the text 'Hello, World!'. It's traditionally the first program beginners write to learn a new language.",
+            "learned_at": "2024-01-17 10:08:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "who is the father of computer science",
+            "a": "Alan Turing is often considered the father of computer science. He created the Turing machine concept and made fundamental contributions to AI and computation.",
+            "learned_at": "2024-01-17 10:09:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the speed of light in code",
+            "a": "Light travels at approximately 299,792,458 meters per second. In computer networks, signals travel at a fraction of light speed due to physical limitations.",
+            "learned_at": "2024-01-17 10:10:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many transistors in a modern cpu",
+            "a": "Modern CPUs contain billions of transistors. Apple M2 has about 20 billion, while larger processors like NVIDIA H100 have over 80 billion transistors.",
+            "learned_at": "2024-01-17 10:11:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what does open source mean",
+            "a": "Open source means the source code is publicly available for anyone to view, modify, and distribute. Examples: Linux, Firefox, TensorFlow, VSCode.",
+            "learned_at": "2024-01-17 10:12:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how big is the internet",
+            "a": "The Internet contains exabytes of data (1 exabyte = 1 billion gigabytes). As of 2024, estimates suggest over 120 zettabytes of data globally.",
+            "learned_at": "2024-01-17 10:13:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "when was the first emoji created",
+            "a": "Emojis were created in 1999 by Shigetaka Kurita for a Japanese mobile operator. The first set had 144 emojis, much smaller than today's 3,000+.",
+            "learned_at": "2024-01-17 10:14:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the most downloaded app",
+            "a": "As of 2024, WhatsApp, Facebook, and WeChat are among the most downloaded apps globally, with over 2 billion downloads each.",
+            "learned_at": "2024-01-17 10:15:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how fast is 5g",
+            "a": "5G networks can theoretically reach speeds of 10 Gbps (10,000 Mbps), while practical speeds are 50-600 Mbps. 4G LTE reaches 30-100 Mbps.",
+            "learned_at": "2024-01-17 10:16:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is quantum computing",
+            "a": "Quantum computing uses quantum bits (qubits) that can be 0, 1, or both simultaneously, allowing quantum computers to solve certain problems exponentially faster.",
+            "learned_at": "2024-01-17 10:17:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many github users are there",
+            "a": "GitHub has over 100 million developers and over 500 million repositories as of 2024, making it the largest code hosting platform.",
+            "learned_at": "2024-01-17 10:18:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what was the first video game",
+            "a": "Tennis for Two (1958) or Spacewar! (1962) are considered among the first video games, depending on the definition. Pong (1972) popularized arcade games.",
+            "learned_at": "2024-01-17 10:19:00",
+            "source": "facts.json"
+        }
+    ]
 }

@@ -3,19 +3,23 @@ import difflib
 import sys
 import os
 from datetime import datetime
+from typing import Optional, Any, Dict, List, Tuple
 
 class IntelligentChatbot:
-    def __init__(self, json_files=None, learn_mode=False):
+    def __init__(self, json_files: Optional[List[str]] = None, learn_mode: bool = False) -> None:
         if json_files is None:
-            json_files = [knowledge.json]
+            json_files = ["knowledge.json"]
         self.json_files = json_files if isinstance(json_files, list) else [json_files]
         self.learn_mode = learn_mode
         self.knowledge = self.load_all_knowledge()
         self.stats = self.load_stats()
         self.question_counter = 0
         self.auto_save_interval = 5
+        # Cache for lowercased questions to avoid recreating on every query
+        self._questions_lower_cache: List[str] = []
+        self._update_questions_cache()
 
-    def load_all_knowledge(self):
+    def load_all_knowledge(self) -> List[Dict[str, Any]]:
         """Charge et fusionne tous les fichiers JSON"""
         all_knowledge = []
 
@@ -36,12 +40,24 @@ class IntelligentChatbot:
                 with open(json_file, 'w', encoding='utf-8') as f:
                     json.dump({"qa_pairs": []}, f, ensure_ascii=False, indent=4)
             except json.JSONDecodeError:
-                print("⚠️ Erreur de lecture dans {json_file}")
+                print(f"⚠️ Erreur de lecture dans {json_file}")
             
         print(f"📚 Chargé {len(all_knowledge)} entrées depuis {len(self.json_files)} fichier(s)")
         return all_knowledge
+    
+    def _update_questions_cache(self) -> None:
+        """Updates the cached list of lowercased questions for faster matching."""
+        self._questions_lower_cache = [item["q"].lower() for item in self.knowledge]
+    
+    def _auto_save_if_needed(self) -> None:
+        """Performs auto-save of knowledge and statistics if threshold is reached."""
+        if self.question_counter % self.auto_save_interval == 0:
+            self.save_knowledge()
+            self.save_stats()
+            print(f"💾 Auto_save: {self.question_counter} questions traitées")
         
-    def load_knowledge(self):
+    
+    def load_knowledge(self) -> List[Dict[str, Any]]:
         """Charge les connaissances depuis le fichier JSON"""
         try:
             with open(self.json_files, 'r', encoding='utf-8') as f:
@@ -54,7 +70,7 @@ class IntelligentChatbot:
             print(f"⚠️  Erreur : Le fichier {self.json_files} est corrompu.")
             return []
     
-    def save_knowledge(self):
+    def save_knowledge(self) -> None:
         """Sauvegarde les connaissances dans le fichier JSON"""
         primary_file = self.json_files[0]
 
@@ -65,7 +81,7 @@ class IntelligentChatbot:
             print(f"💾 Sauvegarde principale dans {primary_file}")
             print(f"   (Les autres fichiers sont en lecteur seule)")
 
-    def load_stats(self):
+    def load_stats(self) -> Dict[str, Any]:
         """Charge ou crée le fichier de stats d'apprentissage"""
         stats_file = "stats_file.json"
         try:
@@ -84,21 +100,21 @@ class IntelligentChatbot:
                 json.dump(stats_init, f, ensure_ascii=False, indent=4)
             return stats_init
     
-    def save_stats(self):
+    def save_stats(self) -> None:
         """Sauvegarde les stats d'apprentissage"""
         with open("stats_file.json", 'w', encoding='utf-8') as f:
             json.dump(self.stats, f, ensure_ascii=False, indent=4)
     
-    def find_answer(self, question):
+    def find_answer(self, question: str) -> Tuple[Optional[str], float]:
         """Trouve la réponse la plus pertinente"""
         self.question_counter += 1
 
         self.stats["total_questions"] += 1
         
         if not self.knowledge:
-            return "Je n'ai aucune connaissance pour l'instant. En mode --learn, vous pouvez m'apprendre des choses !"
+            return "Je n'ai aucune connaissance pour l'instant. En mode --learn, vous pouvez m'apprendre des choses !", 0.0
         
-        known_questions = [item["q"].lower() for item in self.knowledge]
+        # Use cached lowercased questions instead of recreating on every call
         
         # Recherche avec différents seuils de similarité
         lower_question = question.lower()
@@ -113,7 +129,7 @@ class IntelligentChatbot:
         threshold = 0.5 if self.learn_mode else 0.7  # Plus permissif en mode apprentissage
         nearest_question = difflib.get_close_matches(
             lower_question, 
-            known_questions, 
+            self._questions_lower_cache, 
             n=1, 
             cutoff=threshold
         )
@@ -125,24 +141,18 @@ class IntelligentChatbot:
                     score = difflib.SequenceMatcher(None, lower_question, nearest_question[0]).ratio()
                     self.stats["relevant_answers"] += 1
 
-                    if self.question_counter % self.auto_save_interval == 0:
-                        self.save_knowledge()
-                        self.save_stats()
-                        print(f"💾 Auto_save: {self.question_counter} questions traitées")
+                    self._auto_save_if_needed()
                     
                     return item["a"], score
         
         # Aucune correspondance trouvée
         self.stats["irrelevant_answers"] += 1
         
-        if self.question_counter % self.auto_save_interval == 0:
-            self.save_knowledge()
-            self.save_stats()
-            print(f"💾 Auto_save: {self.question_counter} questions traitées")
+        self._auto_save_if_needed()
 
         return None, 0.0
     
-    def learn_new_answer(self, question, answer, rating=None, source_file=None):
+    def learn_new_answer(self, question: str, answer: str, rating: Optional[int] = None, source_file: Optional[str] = None) -> bool:
         """Apprend une nouvelle question/réponse"""
         # Vérifier si la question existe déjà
         for i, item in enumerate(self.knowledge):
@@ -159,6 +169,7 @@ class IntelligentChatbot:
                         "source": source_file or self.json_files[0]
                     }
                     self.save_knowledge()
+                    self._update_questions_cache()  # Update cache after modification
                     return True
                 return False
         
@@ -171,9 +182,10 @@ class IntelligentChatbot:
         })
         self.stats["new_learnings"] += 1
         self.save_knowledge()
+        self._update_questions_cache()  # Update cache after adding new knowledge
         return True
     
-    def evaluate_relevance(self, question, found_answer, score):
+    def evaluate_relevance(self, question: str, found_answer: str, score: float) -> None:
         """Évalue la pertinence de la réponse et ajuste l'apprentissage"""
         print(f"\n📊 Score de pertinence : {score:.2%}")
         
@@ -206,7 +218,7 @@ class IntelligentChatbot:
             
             self.save_stats()
     
-    def display_stats(self):
+    def display_stats(self) -> None:
         """Affiche les stats d'apprentissage"""
         print("\n" + "="*60)
         print("📈 STATISTIQUES D'APPRENTISSAGE")
@@ -223,7 +235,7 @@ class IntelligentChatbot:
         print(f"📁 Base de connaissances : {len(self.knowledge)} entrées")
         print("="*60)
 
-def main():
+def main() -> None:
     """Fonction principale avec gestion des flags"""
     # Analyser les arguments de la ligne de commande
     learn_mode = "--learn" in sys.argv
@@ -248,9 +260,16 @@ def main():
     print("  /quit      - Quitter")
     print("="*60)
     
-    # Initialiser le chatbot
+    # Initialiser le chatbot with all knowledge sources
     chatbot = IntelligentChatbot(
-        json_files=["knowledge_base.json", "personality.json", "facts.json"],
+        json_files=[
+            "knowledge_base.json",  # Primary knowledge base (read/write)
+            "personality.json",      # Personality traits and behaviors
+            "facts.json",            # Interesting facts and trivia
+            "faq.json",              # Frequently asked questions
+            "general_knowledge.json",# General educational knowledge
+            "python_tips.json"       # Python programming tips
+        ],
         learn_mode=learn_mode
     )
     
@@ -275,7 +294,7 @@ def main():
         elif question.lower() == '/sources':
             print(f"\n📁 Fichiers sources chargés: ")
             for i, f in enumerate(chatbot.json_files, 1):
-                count = sum(1 for item in chatbot.knowledge if item.get('sources') == f)
+                count = sum(1 for item in chatbot.knowledge if item.get('source') == f)
                 print(f"  {i}. {f} : {count} entrées")
         
         if not question:
