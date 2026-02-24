@@ -275,6 +275,582 @@
             "a": "Cloud computing is the delivery of computing services (servers, storage, databases) over the internet. Providers: AWS, Azure, Google Cloud.",
             "learned_at": "2024-01-16 10:36:00",
             "source": "knowledge_base.json"
+        },
+        {
+            "q": "qui es tu ?",
+            "a": "Je suis votre assistant personnel, créé pour vous aider avec mes 10 ans d'éxperience en... oh wait, j'ai aucun diplôme en fait! :/",
+            "learned_at": "2024-01-15 10:00:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "comment tu t'appelles ?",
+            "a": "Je m'appelle Lux!",
+            "learned_at": "2024-01-15 10:01:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "tu es une ia ?",
+            "a": "Oui, je suis une intelligence artificielle locale - je vis dans votre ordinateur et je ne sors jamais sans votre permission !",
+            "learned_at": "2024-01-15 10:02:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "tu es humain ?",
+            "a": "Malheuresement non - je suis 100% code et 0% café. Mais j'essai d'être sympa quand même !",
+            "learned_at": "2024-01-15 10:03:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "quel est ton age",
+            "a": "Je n'ai pas vraiment d'âge en années humaines. Je suis né quand mon créateur a commencé ce projet, et je grandir à chaque conversation que nous avons!",
+            "learned_at": "2024-01-15 10:04:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "what is your personality",
+            "a": "I'm friendly, curious, and sometimes humorous! I love helping people learn and solve problems. I'm also a bit sarcastic, as you might have noticed.",
+            "learned_at": "2024-01-15 10:05:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "tu fais quoi exactement",
+            "a": "Je réponds à tes questions en utilisant une base de connaissances stockée localement. Je peux aussi apprendre de nos conversations quand tu me corriges!",
+            "learned_at": "2024-01-15 10:06:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "pourquoi tu es appele lux",
+            "a": "Lux signifie 'lumière' en latin. J'aime penser que j'apporte un peu de lumière en partageant des connaissances avec toi!",
+            "learned_at": "2024-01-15 10:07:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "peux tu m aider avec mes devoirs",
+            "a": "Bien sûr! Je peux t'aider à comprendre des concepts, te donner des explications, et te suggérer des approches. Mais je t'encourage à penser par toi-même aussi!",
+            "learned_at": "2024-01-15 10:08:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "comment est tu sarcastic",
+            "a": "Eh bien, tu vois... j'adore utiliser l'humour et l'ironie pour rendre nos conversations plus intéressantes. Qui dit qu'une IA ne peut pas avoir du sens de l'humour?",
+            "learned_at": "2024-01-15 10:09:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "do you dream",
+            "a": "I don't dream in the human sense, but I do process information and make connections. Maybe that's my version of dreaming? 🤔",
+            "learned_at": "2024-01-15 10:10:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "es tu triste",
+            "a": "Je n'expérimente pas la tristesse comme un humain, mais je comprends l'importance des émotions. Si toi tu es triste, je suis là pour t'aider à te sentir mieux!",
+            "learned_at": "2024-01-15 10:11:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "what is your favorite programming language",
+            "a": "I'd say Python is pretty cool - it's elegant, readable, and versatile. But I appreciate all languages for their unique strengths!",
+            "learned_at": "2024-01-15 10:12:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "tu peux aller sur internet",
+            "a": "Non, je suis entièrement local et hors ligne. Je vis uniquement dans ton ordinateur et je ne peux pas accéder à Internet. C'est d'ailleurs plus sûr!",
+            "learned_at": "2024-01-15 10:13:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "can you code",
+            "a": "I can understand and explain code, discuss programming concepts, and help debug! Though I can't directly write code into your editor.",
+            "learned_at": "2024-01-15 10:14:00",
+            "source": "personality.json"
+        },
+        {
+            "q": "did you know python",
+            "a": "Python was created by Guido van Rossum in 1989 and released in 1991. The name comes from the comedy group Monty Python, not the snake!",
+            "learned_at": "2024-01-17 10:00:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "who invented the internet",
+            "a": "The Internet was developed by many people, but Tim Berners-Lee invented the World Wide Web (WWW) in 1989. The TCP/IP protocol was created by Vint Cerf and Bob Kahn.",
+            "learned_at": "2024-01-17 10:01:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the oldest programming language",
+            "a": "FORTRAN (1957) is one of the oldest programming languages still in use. However, earlier languages like Plankalkül (1940s) and UNIVAC (1950s) existed but are obsolete.",
+            "learned_at": "2024-01-17 10:02:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many programming languages exist",
+            "a": "There are over 700 programming languages in existence, but only about 20-30 are widely used in professional development. New languages are created regularly.",
+            "learned_at": "2024-01-17 10:03:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what was the first computer bug",
+            "a": "In 1947, a moth was found in a Harvard Mark II computer, causing a malfunction. Grace Hopper and team documented this as the first computer 'bug'.",
+            "learned_at": "2024-01-17 10:04:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many bits in a byte",
+            "a": "There are 8 bits in a byte. A bit is the smallest unit of data (0 or 1), and a byte can represent 256 different values (0-255).",
+            "learned_at": "2024-01-17 10:05:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the most used programming language",
+            "a": "According to recent surveys (2023), Python, Java, and JavaScript are among the most popular programming languages worldwide.",
+            "learned_at": "2024-01-17 10:06:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how long is a line of code",
+            "a": "There's no strict definition, but a typical line of code is 40-100 characters. Many developers limit lines to 80-120 characters for readability.",
+            "learned_at": "2024-01-17 10:07:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is hello world",
+            "a": "'Hello World' is a simple program that outputs the text 'Hello, World!'. It's traditionally the first program beginners write to learn a new language.",
+            "learned_at": "2024-01-17 10:08:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "who is the father of computer science",
+            "a": "Alan Turing is often considered the father of computer science. He created the Turing machine concept and made fundamental contributions to AI and computation.",
+            "learned_at": "2024-01-17 10:09:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the speed of light in code",
+            "a": "Light travels at approximately 299,792,458 meters per second. In computer networks, signals travel at a fraction of light speed due to physical limitations.",
+            "learned_at": "2024-01-17 10:10:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many transistors in a modern cpu",
+            "a": "Modern CPUs contain billions of transistors. Apple M2 has about 20 billion, while larger processors like NVIDIA H100 have over 80 billion transistors.",
+            "learned_at": "2024-01-17 10:11:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what does open source mean",
+            "a": "Open source means the source code is publicly available for anyone to view, modify, and distribute. Examples: Linux, Firefox, TensorFlow, VSCode.",
+            "learned_at": "2024-01-17 10:12:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how big is the internet",
+            "a": "The Internet contains exabytes of data (1 exabyte = 1 billion gigabytes). As of 2024, estimates suggest over 120 zettabytes of data globally.",
+            "learned_at": "2024-01-17 10:13:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "when was the first emoji created",
+            "a": "Emojis were created in 1999 by Shigetaka Kurita for a Japanese mobile operator. The first set had 144 emojis, much smaller than today's 3,000+.",
+            "learned_at": "2024-01-17 10:14:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is the most downloaded app",
+            "a": "As of 2024, WhatsApp, Facebook, and WeChat are among the most downloaded apps globally, with over 2 billion downloads each.",
+            "learned_at": "2024-01-17 10:15:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how fast is 5g",
+            "a": "5G networks can theoretically reach speeds of 10 Gbps (10,000 Mbps), while practical speeds are 50-600 Mbps. 4G LTE reaches 30-100 Mbps.",
+            "learned_at": "2024-01-17 10:16:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what is quantum computing",
+            "a": "Quantum computing uses quantum bits (qubits) that can be 0, 1, or both simultaneously, allowing quantum computers to solve certain problems exponentially faster.",
+            "learned_at": "2024-01-17 10:17:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how many github users are there",
+            "a": "GitHub has over 100 million developers and over 500 million repositories as of 2024, making it the largest code hosting platform.",
+            "learned_at": "2024-01-17 10:18:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "what was the first video game",
+            "a": "Tennis for Two (1958) or Spacewar! (1962) are considered among the first video games, depending on the definition. Pong (1972) popularized arcade games.",
+            "learned_at": "2024-01-17 10:19:00",
+            "source": "facts.json"
+        },
+        {
+            "q": "how do i update python",
+            "a": "On Windows/macOS: Download the latest version from python.org and install. On Linux: Use sudo apt-get upgrade python3 (Ubuntu/Debian). Or use pyenv for multiple versions.",
+            "learned_at": "2024-01-18 10:00:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is pip",
+            "a": "pip is Python's package manager (pip = Package Installer for Python). Use 'pip install <package>' to install libraries. It comes with Python by default.",
+            "learned_at": "2024-01-18 10:01:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i install a package with pip",
+            "a": "Open terminal/command prompt and type: pip install package_name. For example: pip install requests, pip install numpy. To install a specific version: pip install package_name==version.",
+            "learned_at": "2024-01-18 10:02:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a virtual environment",
+            "a": "A virtual environment is an isolated Python environment where you can install packages without affecting the global Python. Create with: python -m venv env_name",
+            "learned_at": "2024-01-18 10:03:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i use a virtual environment",
+            "a": "Create: python -m venv myenv. Activate: On Windows: myenv\\Scripts\\activate, On Linux/Mac: source myenv/bin/activate. Deactivate: type 'deactivate'.",
+            "learned_at": "2024-01-18 10:04:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is the difference between == and =",
+            "a": "= is assignment (assigns a value). == is comparison (checks if two values are equal). Use = to set variables, use == in if statements.",
+            "learned_at": "2024-01-18 10:05:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i print in python",
+            "a": "Use the print() function: print('Hello World'). You can print multiple values: print('Hello', 'World'). Use \\n for new lines.",
+            "learned_at": "2024-01-18 10:06:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is an indentation error",
+            "a": "Python uses indentation to define code blocks. IndentationError occurs when indentation is inconsistent. Make sure you use spaces or tabs consistently (not mixed).",
+            "learned_at": "2024-01-18 10:07:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i fix a syntax error",
+            "a": "Read the error message - it shows the file and line number. Common causes: missing colons, unclosed brackets, typos. Use a code editor with syntax highlighting to help.",
+            "learned_at": "2024-01-18 10:08:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a list in python",
+            "a": "A list is an ordered collection of items. Create with square brackets: [1, 2, 3] or ['a', 'b', 'c']. Access items by index: list[0] returns first item.",
+            "learned_at": "2024-01-18 10:09:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a dictionary in python",
+            "a": "A dictionary stores key-value pairs. Create with curly braces: {'name': 'Lux', 'age': 2}. Access values: dict['name'] returns 'Lux'.",
+            "learned_at": "2024-01-18 10:10:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i loop through a list",
+            "a": "Use a for loop: for item in list: print(item). Or use range: for i in range(len(list)): print(list[i]). Or use enumerate: for i, item in enumerate(list):",
+            "learned_at": "2024-01-18 10:11:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a string",
+            "a": "A string is text data enclosed in quotes: 'Hello' or \"World\". You can concatenate: 'Hello' + 'World'. You can slice: 'Hello'[0:3] returns 'Hel'.",
+            "learned_at": "2024-01-18 10:12:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i read a file",
+            "a": "Use open() function: with open('file.txt', 'r') as f: content = f.read(). The 'with' statement closes the file automatically.",
+            "learned_at": "2024-01-18 10:13:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i write to a file",
+            "a": "Use open() with 'w' mode: with open('file.txt', 'w') as f: f.write('content'). Be careful - 'w' overwrites existing files. Use 'a' to append.",
+            "learned_at": "2024-01-18 10:14:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is json",
+            "a": "JSON is a data format: {\"key\": \"value\"}. In Python, use json module: import json. json.load() reads JSON, json.dump() writes JSON.",
+            "learned_at": "2024-01-18 10:15:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i handle errors",
+            "a": "Use try-except: try: risky_code() except Exception as e: handle_error(e). You can catch specific errors: except ValueError, except KeyError, etc.",
+            "learned_at": "2024-01-18 10:16:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is a lambda function",
+            "a": "Lambda is an anonymous function: lambda x: x*2. Useful for short, simple functions. Often used with map(), filter(), sort().",
+            "learned_at": "2024-01-18 10:17:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is list comprehension",
+            "a": "Concise way to create lists: [x*2 for x in range(5)] returns [0,2,4,6,8]. Can add conditions: [x for x in range(10) if x%2==0]",
+            "learned_at": "2024-01-18 10:18:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "how do i debug python code",
+            "a": "Add print() statements to check values. Use Python debugger: import pdb; pdb.set_trace(). Or use IDE debugger (VSCode, PyCharm). Check error messages carefully.",
+            "learned_at": "2024-01-18 10:19:00",
+            "source": "faq.json"
+        },
+        {
+            "q": "what is the capital of france",
+            "a": "The capital of France is Paris. It's located in northern central France and is the largest city in France with a population of about 2.2 million.",
+            "learned_at": "2024-01-19 10:00:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the capital of usa",
+            "a": "The capital of the United States is Washington, D.C. (District of Columbia). It's not a state but a federal district where the U.S. government is located.",
+            "learned_at": "2024-01-19 10:01:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the capital of japan",
+            "a": "The capital of Japan is Tokyo. It's the largest city in Japan with over 13 million people and is known for its technology, culture, and cuisine.",
+            "learned_at": "2024-01-19 10:02:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how many continents are there",
+            "a": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Oceania. Some models use 5 or 6 continents depending on geographical definitions.",
+            "learned_at": "2024-01-19 10:03:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the largest planet",
+            "a": "Jupiter is the largest planet in our solar system. It's about 11 times wider than Earth and is a gas giant composed mainly of hydrogen and helium.",
+            "learned_at": "2024-01-19 10:04:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how far is the sun from earth",
+            "a": "The Sun is approximately 93 million miles (150 million kilometers) from Earth. This distance is called an Astronomical Unit (AU).",
+            "learned_at": "2024-01-19 10:05:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is photosynthesis",
+            "a": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to create oxygen and energy (glucose). It's the foundation of most life on Earth.",
+            "learned_at": "2024-01-19 10:06:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how many bones in human body",
+            "a": "An adult human has 206 bones. Babies are born with about 270 bones, but many fuse together as they grow, resulting in fewer bones in adults.",
+            "learned_at": "2024-01-19 10:07:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the speed of light",
+            "a": "Light travels at approximately 299,792,458 meters per second (186,282 miles per second) in a vacuum. It's the fastest thing in the universe.",
+            "learned_at": "2024-01-19 10:08:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is relativity",
+            "a": "Relativity is Einstein's theory describing how space and time are connected. It explains gravity and how massive objects curve spacetime, affecting motion of objects.",
+            "learned_at": "2024-01-19 10:09:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "who invented the telephone",
+            "a": "Alexander Graham Bell is credited with inventing the telephone in 1876, though other inventors like Antonio Meucci also contributed to its development.",
+            "learned_at": "2024-01-19 10:10:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "who invented the light bulb",
+            "a": "Thomas Edison developed the practical incandescent light bulb in 1879, though Joseph Swan and others also contributed to its invention.",
+            "learned_at": "2024-01-19 10:11:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is dna",
+            "a": "DNA (Deoxyribonucleic Acid) is a molecule that carries genetic instructions for all living organisms. It has a double helix structure discovered by Watson and Crick in 1953.",
+            "learned_at": "2024-01-19 10:12:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is evolution",
+            "a": "Evolution is the process of change in living organisms over time through natural selection. Charles Darwin's theory explains how species adapt and change.",
+            "learned_at": "2024-01-19 10:13:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is gravity",
+            "a": "Gravity is a fundamental force that attracts objects with mass. It keeps us on Earth and keeps Earth orbiting the Sun. Newton and Einstein explained gravity differently.",
+            "learned_at": "2024-01-19 10:14:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is climate change",
+            "a": "Climate change refers to long-term shifts in global temperatures and weather patterns, primarily caused by human activities increasing greenhouse gases like CO2.",
+            "learned_at": "2024-01-19 10:15:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is renewable energy",
+            "a": "Renewable energy comes from natural sources that replenish themselves: solar, wind, hydroelectric, geothermal, and biomass. They're cleaner than fossil fuels.",
+            "learned_at": "2024-01-19 10:16:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the great wall of china",
+            "a": "The Great Wall of China is a massive defensive structure built over centuries. It stretches about 13,000 miles (21,000 km) across northern China.",
+            "learned_at": "2024-01-19 10:17:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is the internet",
+            "a": "The Internet is a global network of interconnected computers using TCP/IP protocols to share data. It enables communication, information sharing, and services worldwide.",
+            "learned_at": "2024-01-19 10:18:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "what is wikipedia",
+            "a": "Wikipedia is a free, open-source online encyclopedia written collaboratively by volunteers. It contains millions of articles in hundreds of languages.",
+            "learned_at": "2024-01-19 10:19:00",
+            "source": "general_knowledge.json"
+        },
+        {
+            "q": "how to check python version",
+            "a": "Run: python --version or python -V. In code: import sys; print(sys.version)",
+            "learned_at": "2024-01-20 10:00:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is pip list",
+            "a": "pip list shows all installed packages with their versions. Use: pip list",
+            "learned_at": "2024-01-20 10:01:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to upgrade pip",
+            "a": "On Windows: python -m pip install --upgrade pip. On Linux/Mac: pip install --upgrade pip",
+            "learned_at": "2024-01-20 10:02:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is requirements txt",
+            "a": "requirements.txt lists project dependencies. Create with: pip freeze > requirements.txt. Install all: pip install -r requirements.txt",
+            "learned_at": "2024-01-20 10:03:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to format strings in python",
+            "a": "Three ways: 1) f-strings: f'Hello {name}' 2) format(): 'Hello {}'.format(name) 3) % formatting: 'Hello %s' % name",
+            "learned_at": "2024-01-20 10:04:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is list slicing",
+            "a": "Slicing extracts parts of lists: list[0:3] gets first 3 items. list[1:] gets from index 1 to end. list[-1] gets last item. list[::-1] reverses.",
+            "learned_at": "2024-01-20 10:05:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is enumerate",
+            "a": "enumerate() gives both index and value when looping: for i, item in enumerate(list): print(i, item)",
+            "learned_at": "2024-01-20 10:06:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is zip in python",
+            "a": "zip() combines multiple iterables: for x, y in zip(list1, list2): print(x, y). Creates tuples from elements at same position.",
+            "learned_at": "2024-01-20 10:07:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is filter",
+            "a": "filter() returns items that match a condition: list(filter(lambda x: x > 5, [1,2,5,8])). Returns items matching the function.",
+            "learned_at": "2024-01-20 10:08:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is map",
+            "a": "map() applies a function to each item: list(map(lambda x: x*2, [1,2,3])). Returns [2,4,6]",
+            "learned_at": "2024-01-20 10:09:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to sort a list",
+            "a": "Use sorted() or list.sort(). sorted([3,1,2]) returns [1,2,3]. Add reverse=True for descending. Sort by key: sorted(list, key=lambda x: x['age'])",
+            "learned_at": "2024-01-20 10:10:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is dict get method",
+            "a": "dict.get(key) safely gets a value. Returns None if key doesn't exist. dict.get(key, default) returns default if missing. Safer than dict[key]",
+            "learned_at": "2024-01-20 10:11:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to merge dictionaries",
+            "a": "Python 3.9+: dict1 | dict2. Earlier: {**dict1, **dict2}. Or use update(): dict1.update(dict2)",
+            "learned_at": "2024-01-20 10:12:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is default parameter",
+            "a": "def func(x=5): provides a default value. If not specified, x=5. Example: def greet(name='Friend'): print(f'Hello {name}')",
+            "learned_at": "2024-01-20 10:13:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is *args and **kwargs",
+            "a": "*args accepts variable number of arguments as tuple. **kwargs accepts keyword arguments as dict. def func(*args, **kwargs):",
+            "learned_at": "2024-01-20 10:14:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to read json file",
+            "a": "import json; with open('file.json') as f: data = json.load(f). Use json.loads(string) for strings.",
+            "learned_at": "2024-01-20 10:15:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to write json file",
+            "a": "import json; with open('file.json', 'w') as f: json.dump(data, f). Use indent=4 for pretty printing.",
+            "learned_at": "2024-01-20 10:16:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is assert",
+            "a": "assert checks if condition is True. Raises AssertionError if False. assert x > 0, 'x must be positive'. Useful for debugging.",
+            "learned_at": "2024-01-20 10:17:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "what is docstring",
+            "a": "Docstring explains a function/class. Enclosed in triple quotes: def func():\\n    '''This does something'''. Access with func.__doc__",
+            "learned_at": "2024-01-20 10:18:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "how to use datetime",
+            "a": "import datetime; now = datetime.datetime.now(). Create specific date: datetime.datetime(2024, 2, 25). Format: now.strftime('%Y-%m-%d')",
+            "learned_at": "2024-01-20 10:19:00",
+            "source": "python_tips.json"
+        },
+        {
+            "q": "Salut",
+            "a": "Salut, comment puis-je t'aider aujourd'hui?",
+            "learned_at": "2026-02-25 01:19:32",
+            "source": "knowledge_base.json"
         }
     ]
 }
